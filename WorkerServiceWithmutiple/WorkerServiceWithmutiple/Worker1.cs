@@ -48,6 +48,14 @@ namespace WorkerServiceWithmutiple
             return true;
         }
 
+
+
+
+
+
+
+
+
         private async Task<bool> GetDataFromAPIAsync4()
         {
             _logger.LogInformation("Worker 1 : 4   running at: {time}", DateTimeOffset.Now);
